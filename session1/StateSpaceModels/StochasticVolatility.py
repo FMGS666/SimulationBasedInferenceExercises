@@ -1,6 +1,6 @@
 import numpy as np
 
-class StateSpaceModel(object):
+class StochasticVolatility(object):
 
     def __init__(
             self, 
