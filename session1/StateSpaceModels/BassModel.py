@@ -24,7 +24,6 @@ class BassModel(object):
         np.random.seed(self.seed)
         self.latent_variables_history = []
         self.observation_history = []
-        self.epsilon_history = []
     
     def __generate_initial_latent_variable(
             self
@@ -62,6 +61,7 @@ class BassModel(object):
         ) -> None:
         X_t = self.latent_variables_history[-1]
         Y_t = np.random.binomial(n = X_t, p = self.gamma)
+        self.observation_history.append(Y_t)
     
     def run_simulation(
             self

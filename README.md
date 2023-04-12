@@ -20,11 +20,11 @@ In particular, we have the following files:
 
 #### ```./session1/StateSpaceModels/StochasticVolatility.py```
 
-Contains the ```StochasticVolatility``` object for running the simulation of a stochastic volatility model (i.e.: ```StochasticVolatility```)
+Contains the ```StochasticVolatility``` object for running the simulation of a stochastic volatility model
 
 #### ```./session1/StateSpaceModels/BassModel.py```
 
-Contains the ```StochasticVolatility``` object for running the simulation of a Bass model (i.e.: ```BassModel```). This object will allow to run simulations for both the stochastic and the deterministic  versions of the model, by specifying the ```BassModel.deterministic``` attribute. Intuitively, when such attribute is set to ```True```, the simulation will be of a deterministic Bass model, while in case it is set to ```False```, the simulation will involve a stochastic Bass model.
+Contains the object for running the simulation of a Bass model (i.e.: ```BassModel```). This object will allow to run simulations for both the stochastic and the deterministic  versions of the model, by specifying the ```BassModel.deterministic``` attribute. Intuitively, when such attribute is set to ```True```, the simulation will be of a deterministic Bass model, while in case it is set to ```False```, the simulation will involve a stochastic Bass model.
 
 ### ```./session1/Notebook.ipynb```
 
