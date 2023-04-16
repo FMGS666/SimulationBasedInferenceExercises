@@ -8,7 +8,7 @@ class StochasticVolatility(object):
             beta: np.float32 = 1, 
             alpha: np.float32 = 99e-2,
             time_horizon: int = 1000, 
-            seed: int = 1024
+            seed: int = 0
         ) -> None:
         self.sigma = sigma
         self.beta = beta

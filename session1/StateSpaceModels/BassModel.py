@@ -11,7 +11,7 @@ class BassModel(object):
             N: int = 100,
             X_0: int = 0, 
             time_horizon: int = 20, 
-            seed: int = 1024,
+            seed: int = 0,
         ) -> None:
         self.deterministic = deterministic
         self.alpha = alpha

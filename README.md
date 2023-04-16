@@ -24,7 +24,7 @@ Contains the ```StochasticVolatility``` object for running the simulation of a s
 
 #### ```./session1/StateSpaceModels/BassModel.py```
 
-Contains the object for running the simulation of a Bass model (i.e.: ```BassModel```). This object will allow to run simulations for both the stochastic and the deterministic  versions of the model, by specifying the ```BassModel.deterministic``` attribute. Intuitively, when such attribute is set to ```True```, the simulation will be of a deterministic Bass model, while in case it is set to ```False```, the simulation will involve a stochastic Bass model.
+Contains the object for running the simulation of a Bass model (i.e.: ```BassModel```). This object will allow to run simulations for both the stochastic and the deterministic  versions of the model, by specifying the ```BassModel.deterministic``` attribute. Intuitively, when such attribute is set to```True```, the simulation will be of a deterministic Bass model, while in case it is set to ```False```, the simulation will involve a stochastic Bass model.
 
 ### ```./session1/Notebook.ipynb```
 
