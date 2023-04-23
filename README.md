@@ -29,3 +29,24 @@ Contains the object for running the simulation of a Bass model (i.e.: ```BassMod
 ### ```./session1/Notebook.ipynb```
 
 Notebook where the simulations are run using the above defined objects and the results are plotted with ```matplotlib.pyplot```.
+
+
+## Session 2
+
+Contains the code necessary for solving the exercises presented during the first session of the course.
+It is organized as follows:
+
+### ```./session2/MCPiEstimator/MCPiEstimator.py```
+
+This file contains the definition of the object used for running Monte Carlo Sampling for estimating the constant pi.
+
+### ```./session2/InversionSampler/InversionSampler.py```
+
+
+This file contains the definition of the object used for running the Inversion Sampling method over an Exponential Distribution.
+For more details about the method, check the course material.
+
+### ```./session2/Notebook.ipynb```
+
+Notebook where the exercises are run and some results are plotted with ```matplotlib.pyplot```.
+
